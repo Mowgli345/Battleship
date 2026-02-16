@@ -1,0 +1,35 @@
+{
+  "compilerOptions": {
+    //"target": "es5",      
+    //"module": "es6",
+    "target": "ES2020",      
+    // "module": "NodeNext",    //for Node
+    "module": "ESNext",    //for browser
+    // "rootDir": "src/",  
+    
+    // "outDir": "dist/",     
+    // "noEmit": true, 
+    // Webpack handles output - TS should not emit. Reverse if not using webpack.
+    
+    "esModuleInterop": true,                       
+    "forceConsistentCasingInFileNames": true,       
+    "sourceMap": true, 
+    
+    "strict": true,                       
+    // "noImplicitAny": true,                       
+    // "strictNullChecks": true,                         
+    // "strictPropertyInitialization": true,            
+    // "noImplicitThis": true,  
+    // Not needed when "strict": true
+    "noImplicitReturns": true,                        
+    "skipLibCheck": true,
+    "allowJs":true,
+    "moduleResolution": "node",
+
+      "typeRoots": [
+        "./src/types",
+        "./node_modules/@types"
+    ]
+  },
+  "include": ["src"]
+}

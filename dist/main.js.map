@@ -1,0 +1,1 @@
+{"version":3,"file":"main.js","mappings":";;;;;;AAAA,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC","sources":["webpack://battleship/./src/index.ts"],"sourcesContent":["console.log('Hello!')"],"names":[],"sourceRoot":""}
